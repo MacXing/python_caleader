@@ -6,7 +6,7 @@
 import pymysql
 
 def connection():
-    conn = pymysql.connect(host='192.168.160.36', port=3306,
+    conn = pymysql.connect(host='localhost', port=3306,
                                   user='root', passwd='gzxiaoi', db='GZXIAOI', charset='utf8')
     return conn
 
